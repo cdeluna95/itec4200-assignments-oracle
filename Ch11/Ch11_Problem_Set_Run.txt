@@ -1,0 +1,33 @@
+Table ARTWORK dropped.
+
+Table MUSEUM dropped.
+
+Table MUSEUM created.
+
+Table ARTWORK created.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+1 row inserted.
+
+Commit complete.
