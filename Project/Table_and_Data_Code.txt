@@ -1,5 +1,5 @@
 -- Christan de Luna
--- Part 3 - CREATE and INSERT
+-- Semester Project: Table and Data
 
 -- DROP statements
 DROP TABLE artwork_artist;

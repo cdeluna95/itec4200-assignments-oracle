@@ -1,0 +1,41 @@
+SQL> get C:\Oracle\Project\Report1
+  1  -- Christan de Luna
+  2  -- Semester Project: Report
+  3  SET PAGESIZE 20
+  4  SET LINESIZE 80
+  5  SET FEEDBACK OFF
+  6  TTITLE 'Semester Project - Report|Art Galleries Database'
+  7  BTITLE 'By - Christan de Luna'
+  8  BREAK ON artwork_id SKIP 1
+  9  COL artwork_id HEADING 'Artwork ID' FORMAT 99
+ 10  COL artwork_name HEADING 'Artwork Name' FORMAT A30
+ 11  COL artist_name HEADING 'Artist Name' FORMAT A20
+ 12  -- SQL Statement
+ 13  -- Selects each artwork ID, name, and their artist.
+ 14  SELECT artwork_id,
+ 15         artwork_name,
+ 16         artist_name
+ 17  FROM artwork
+ 18* ORDER BY 1;
+ 19  @ C:\Oracle\Project\Report1
+
+Sat Nov 11                                                             page    1
+                           Semester Project - Report
+                             Art Galleries Database
+
+Artwork ID Artwork Name                   Artist Name                           
+---------- ------------------------------ --------------------                  
+         1 The Persistence of Memory      Salvador Dali                         
+                                                                                
+         2 Guernica                       Pablo Picasso                         
+                                                                                
+         3 Mona Lisa                      Leonardo da Vinci                     
+                                                                                
+         4 The Creation of Adam           Michelangelo                          
+                                                                                
+         5 The Starry Night               Vincent van Gogh                      
+                                                                                
+
+
+                             By - Christan de Luna
+SQL> spool off
