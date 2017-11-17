@@ -1,7 +1,7 @@
 -- Christan de Luna
 -- Semester Project: Report
 
-SET PAGESIZE 20
+SET PAGESIZE 25
 SET LINESIZE 80
 SET FEEDBACK OFF
 TTITLE 'Semester Project - Report|Art Galleries Database'

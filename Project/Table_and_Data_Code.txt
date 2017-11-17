@@ -62,6 +62,7 @@ CREATE TABLE ARTWORK_ARTIST (
         REFERENCES artist(artist_id)
 );
 
+
 -- INSERT into MUSEUM
 INSERT INTO museum
     VALUES (1, 'High Museum of Art', 17, '4047334400', 'Atlanta', 'United States of America', TO_DATE('05-OCT-1905', 'DD-MM-YYYY'));
@@ -76,13 +77,16 @@ INSERT INTO museum
     VALUES (4, 'British Museum', 12, '2073238299', 'London', 'England', TO_DATE('07-JUN-1753', 'DD-MM-YYYY'));
 
 INSERT INTO museum
-    VALUES (5, 'Vatican Museums', 6, '0669884676', 'Vatican City', 'Vatican City', TO_DATE('14-JAN-1506', 'DD-MM-YYYY'));
+    VALUES (5, 'Vatican Museums', 8, '0669884676', 'Vatican City', 'Vatican City', TO_DATE('14-JAN-1506', 'DD-MM-YYYY'));
 
 INSERT INTO museum
     VALUES (6, 'Museo Reina Sofia', 14, '917741000', 'Madrid', 'Spain', TO_DATE('10-SEP-1992', 'DD-MM-YYYY'));
 
 INSERT INTO museum
     VALUES (7, 'Museum of Modern Art', 19, '2127089400', 'New York City', 'United States of America', TO_DATE('07-NOV-1929', 'DD-MM-YYYY'));
+
+INSERT INTO museum
+    VALUES (8, 'Art Institute of Chicago', 15, '3124433600', 'Chicago', 'United States of America', TO_DATE('22-NOV-1879', 'DD-MM-YYYY'));
 
 
 -- INSERT into ARTWORK
@@ -96,10 +100,19 @@ INSERT INTO artwork
     VALUES (3, 'Mona Lisa', 'Leonardo da Vinci', 'Oil on poplar panel', 1503, 2);
 
 INSERT INTO artwork
-    VALUES (4, 'The Creation of Adam', 'Michelangelo', 'Fresco', 1512, 5);
+    VALUES (4, 'The Creation of Adam', 'Michelangelo', 'Fresco', 1512, NULL);
 
 INSERT INTO artwork
     VALUES (5, 'The Starry Night', 'Vincent van Gogh', 'Oil on canvas', 1889, 7);
+
+INSERT INTO artwork
+    VALUES (6, 'Interchange', 'William de Kooning', 'Oil on canvas', 1955, 8);
+
+INSERT INTO artwork
+    VALUES (7, 'Moscow Courtyard', 'Vasily Polenov', NULL, 1878, NULL);
+    
+INSERT INTO artwork
+    VALUES (8, 'Number 17A', 'Jackson Pollock', 'Oil on fiberboard', 1948, 7);
 
 
 -- INSERT into ARTIST
@@ -118,28 +131,40 @@ INSERT INTO artist
 INSERT INTO artist
     VALUES (5, 'Vincent van Gogh', 'Netherlands', TO_DATE('30-03-1853', 'DD-MM-YYYY'), 'Post-Impressionism');
 
+INSERT INTO artist
+    VALUES (6, 'William de Kooning', 'Netherlands', TO_DATE('24-04-1904', 'DD-MM-YYYY'), 'Abstract Expressionism');
+
+INSERT INTO artist
+    VALUES (7, 'Vasily Polenov', 'Russia', TO_DATE('01-06-1844', 'DD-MM-YYYY'), NULL);
+
+INSERT INTO artist
+    VALUES (8, 'Jackson Pollock', 'United States of America', TO_DATE('28-01-1912', 'DD-MM-YYYY'), 'Abstract Expressionism');
+
 
 -- INSERT into MUSEUM_ARTIST
 INSERT INTO museum_artist
-    VALUES (1, 1);
+    VALUES (1, NULL);
     
 INSERT INTO museum_artist
-    VALUES (2, 2);
+    VALUES (2, 3);
     
 INSERT INTO museum_artist
-    VALUES (3, 3);
+    VALUES (3, NULL);
     
 INSERT INTO museum_artist
-    VALUES (4, 2);
+    VALUES (4, NULL);
     
 INSERT INTO museum_artist
-    VALUES (5, 4);
+    VALUES (5, NULL);
     
 INSERT INTO museum_artist
-    VALUES (6, 1);
+    VALUES (6, 2);
     
 INSERT INTO museum_artist
-    VALUES (7, 5);
+    VALUES (7, 1);
+
+INSERT INTO museum_artist
+    VALUES (8, 6);
 
 
 -- INSERT into ARTWORK_ARTIST
@@ -157,6 +182,15 @@ INSERT INTO artwork_artist
     
 INSERT INTO artwork_artist
     VALUES (5, 5);
+
+INSERT INTO artwork_artist
+    VALUES (6, 6);
+
+INSERT INTO artwork_artist
+    VALUES (7, 7);
+
+INSERT INTO artwork_artist
+    VALUES (8, 8);
 
 
 -- Save script

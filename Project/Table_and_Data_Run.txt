@@ -1,79 +1,151 @@
 Table ARTWORK_ARTIST dropped.
 
+
 Table MUSEUM_ARTIST dropped.
+
 
 Table ARTIST dropped.
 
+
 Table ARTWORK dropped.
+
 
 Table MUSEUM dropped.
 
+
 Table MUSEUM created.
+
 
 Table ARTWORK created.
 
+
 Table ARTIST created.
+
 
 Table MUSEUM_ARTIST created.
 
+
 Table ARTWORK_ARTIST created.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
-1 row inserted.
 
 1 row inserted.
 
+
 1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
 
 Commit complete.

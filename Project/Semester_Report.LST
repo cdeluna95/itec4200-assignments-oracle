@@ -1,7 +1,7 @@
 SQL> get C:\Oracle\Project\Report1
   1  -- Christan de Luna
   2  -- Semester Project: Report
-  3  SET PAGESIZE 20
+  3  SET PAGESIZE 25
   4  SET LINESIZE 80
   5  SET FEEDBACK OFF
   6  TTITLE 'Semester Project - Report|Art Galleries Database'
@@ -19,7 +19,7 @@ SQL> get C:\Oracle\Project\Report1
  18* ORDER BY 1;
  19  @ C:\Oracle\Project\Report1
 
-Sat Nov 11                                                             page    1
+Thu Nov 16                                                             page    1
                            Semester Project - Report
                              Art Galleries Database
 
@@ -35,7 +35,12 @@ Artwork ID Artwork Name                   Artist Name
                                                                                 
          5 The Starry Night               Vincent van Gogh                      
                                                                                 
-
+         6 Interchange                    William de Kooning                    
+                                                                                
+         7 Moscow Courtyard               Vasily Polenov                        
+                                                                                
+         8 Number 17A                     Jackson Pollock                       
+                                                                                
 
                              By - Christan de Luna
 SQL> spool off
