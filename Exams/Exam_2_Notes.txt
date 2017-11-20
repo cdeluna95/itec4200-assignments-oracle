@@ -1,0 +1,13 @@
+SUBSTR('string', position)
+
+COUNT(*) includes null values
+
+"It doesn't matter if the table has one row, the statement will still work.  You are allowed to apply an aggreate function to zero, one, or more rows."
+
+https://stackoverflow.com/questions/1018822/inner-join-on-vs-where-clause
+
+SELECT COUNT(*) FROM section, location; = CROSS JOIN
+
+You can JOIN two or more common column names
+FROM employees e JOIN departments d
+ON e.department_id = d.department_id AND e.manager_id = d.manager_id;

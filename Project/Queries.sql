@@ -1,6 +1,10 @@
 -- Christan de Luna
 -- Semester Project: Queries
 
+-- Get and run formatting in command line
+SET LINESIZE 150
+SET FEEDBACK OFF
+
 -- Query 1:
 -- Display a list of artworks, their artists, and
 -- their media whose artists are of Spanish descent,
